@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag":  "greetings",
+      "patterns": ["hello", "Hey", "hi", "good day", "Greetings", "what's up?", "how is it going?"],
+      "responses": ["Hello!", "Hey!", "What can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a good day", "bye", "see ya", "cao"],
+      "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+    },
+    {
+      "tag": "shop",
+      "patterns": ["Id like to buy a car"],
+      "responses": ["Atlasmotorsja has a huge collection of car. Please tell us which model of car you like most."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+      "responses": ["24/7"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["where are your shop located", "where is the shop", "say address", "your address", "where I get how"],
+      "responses": ["4 Kingsland, Spur Tree Main Road, Mandeville, Jamaica"]
+    }
+  ]
+}
